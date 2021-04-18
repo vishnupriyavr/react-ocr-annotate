@@ -4,12 +4,12 @@ import ReactImageAnnotate from "react-image-annotate";
 const App = () => (
   <ReactImageAnnotate
     labelImages
-    regionClsList={["Alpha", "Beta", "Charlie", "Delta"]}
+    regionClsList={["Alpha", "Beta", "InvoiceNumber", "Charlie", "Delta"]}
     regionTagList={["tag1", "tag2", "tag3"]}
     images={[
       {
         src:
-          "https://4.imimg.com/data4/FQ/NP/MY-909762/student-id-cards-500x500.jpg",
+          "https://templates.invoicehome.com/invoice-template-us-neat-750px.png",
         name: "Image 1",
         regions: []
       }
